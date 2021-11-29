@@ -1,0 +1,26 @@
+#skills {
+    text-align: center;
+}
+
+#skills > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#skills > h2 {
+    font-size: 32px;
+    border-bottom: 1px solid black;
+    width: 40%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+#skills > ul {
+    font-size: 24px;
+    padding: 1%;
+}
+
+#skills > ul > li {
+    padding: 0.3%;
+}

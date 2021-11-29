@@ -1,0 +1,16 @@
+/* About */
+
+#about {
+    display: flex;
+    flex-direction: row;
+}
+
+#profilePic {
+    height: 600px;
+    width: 400px;
+}
+
+#profile {
+    display: flex;
+    flex-direction: column;
+}
