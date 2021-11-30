@@ -7,6 +7,10 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { ContactComponent } from './contact/contact.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatTooltipModule} from '@angular/material/tooltip';
+
 
 @NgModule({
   declarations: [
@@ -14,11 +18,14 @@ import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontaweso
     AboutComponent,
     SkillsComponent,
     PortfolioComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

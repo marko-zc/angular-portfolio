@@ -5,7 +5,7 @@
     flex-direction: row;
     margin: 1% 5%;
     border: 1px solid black;
-    background-color: grey;
+    background-color: #e8e8e8;
     padding: 2px;
 }
 
@@ -35,6 +35,23 @@
 #description > p {
     font-size: 24px;
 }
+
+#links {
+    display: flex;
+    flex-direction: column;
+}
+
+#links > a {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+#links > a > fa-icon {
+    color: black;
+}
+
 
 @media only screen and (max-width: 640px){
     #about {
